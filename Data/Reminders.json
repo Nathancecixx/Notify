@@ -1,23 +1,30 @@
 [
     {
-        "title": "Good morning!",
-        "message": "Here is everything on todays schedule:",
+        "title": "Morning Meeting",
+        "message": "Daily stand-up meeting",
         "date": "2024-08-10",
-        "time": "08:00",
-        "recurring" : true
+        "time": "09:00",
+        "recurring": true
     },
     {
-        "title": "Dinner Time",
-        "message": "Dinner is ready.",
-        "date": "2024-08-10",
-        "time": "18:44",
-        "recurring" : true
+        "title": "Doctor Appointment",
+        "message": "Doctor appointment at 3 PM",
+        "date": "2024-08-12",
+        "time": "15:00",
+        "recurring": false
     },
     {
-        "title": "Workout Time",
-        "message": "It is time to workout!",
+        "title": "WORKOUT TIME!!",
+        "message": "Time to workout buddy!!",
         "date": "2024-08-10",
-        "time": "19:15",
-        "recurring" : true
+        "time": "10:00",
+        "recurring": true
+    },
+    {
+        "title": "WORKOUT TIME!!",
+        "message": "Time to workout buddy!!",
+        "date": "2024-08-10",
+        "time": "10:00",
+        "recurring": true
     }
 ]
