@@ -8,16 +8,25 @@ class Reminder_Handler:
         self.scheduler = Scheduler()
         self.file_path = File_Path
 
-    def check_reminders(self):
-        self.scheduler.run_pending()
-
     def create_reminder(self, reminder):
         self.reminders.append(reminder)
         recurring = reminder['recurring']
         if recurring == True:
             self.scheduler.schedule_recurring(reminder=reminder)
-        else:
+        else: 
+# Implement a way to get
+# the job returned here so
+# that I can store it in as 
+# the reminders unique ID
             self.scheduler.schedule_once(reminder=reminder)
+
+    def delete_reminder(self):
+        return False
+    #TODO
+
+
+    def check_reminders(self):
+        self.scheduler.run_pending()
 
     def save_reminders(self):
         try:

@@ -48,7 +48,7 @@ class Scheduler:
 
         elif current_date < reminder_date:
             print(f"Scheduling one-time task for the future date: {title} at {time_str} on {reminder['date']}")
-            delay = (scheduled_time - now).total_seconds()
+            delay = int((scheduled_time - now).total_seconds())
             job = schedule.every(delay).seconds.do(self.send_notification, title=title, message=message)
             self.jobs.append(job)
 

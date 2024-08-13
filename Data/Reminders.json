@@ -19,12 +19,5 @@
         "date": "2024-08-10",
         "time": "10:00",
         "recurring": true
-    },
-    {
-        "title": "WORKOUT TIME!!",
-        "message": "Time to workout buddy!!",
-        "date": "2024-08-10",
-        "time": "10:00",
-        "recurring": true
     }
 ]
